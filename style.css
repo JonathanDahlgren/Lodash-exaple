@@ -1,0 +1,70 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-image: linear-gradient(to top, #d16ba5, #ef7386, #f78866, #eaa650, #cbc451, #9cd16d, #66d896, #00dcc3, #00ceee, #00b8ff, #0097ff, #a75ffb);
+    background-repeat: no-repeat;
+    flex-direction: column;
+    font-family: 'Lacquer', sans-serif;
+    height: 100vh;
+}
+
+#output {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    text-align: center;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    font-size: 8vw;
+}
+
+#randomNumberShow {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    text-align: center;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    font-size: 4vw;
+}
+
+h1 {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    font-size: 6vw;
+}
+
+#button {
+    border: 0.3rem;
+    background-color: transparent;
+    font-size: 5vw;
+    cursor: pointer;
+    display: flex;
+    justify-content: left;
+    margin: 1.5rem;
+    font-family: 'Lacquer', sans-serif;
+}
+
+div {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    text-align: center;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    font-size: 8vw;
+}
+
+@media screen and (min-width: 1000px) {
+    #button {
+        font-size: 3vw;
+    }
+    #output {
+        font-size: 3rem;
+    }
+    h1 {font-size: 6rem;
+        margin: 1rem 0 1rem 0;}
+}
